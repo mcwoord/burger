@@ -9,7 +9,7 @@ for (let i = 0; i < links.length; i++) {
     }
 }
 
-let buttons = document.getElementsByClassName("products-button");
+let buttons = document.getElementsByClassName("product-button");
 for (let i = 0; i < buttons.length; i++) {
     buttons[1].onclick = function () {
         document.getElementById("order").scrollIntoView({behavior: "smooth"});
